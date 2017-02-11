@@ -91,3 +91,4 @@ if __name__ == "__main__":
                 break
             else:
                 continue
+                pickle.dump(student_lst, open("student.txt", "wb"))
